@@ -1,3 +1,3 @@
 #Inputs:
-name = input('What is your name: ')
-print('Hi', name)
+name = input('What is your name:')
+print('Hi '+ name)

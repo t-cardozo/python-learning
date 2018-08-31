@@ -5,3 +5,5 @@ if age < 10:
     print('you are young!')
 elif age < 40:
     print('under 40')
+else:
+    print('huh?')

@@ -1,6 +1,7 @@
 my_name = 'Troy'
 
 def print_name():
+    global my_name
     my_name = 'Laura'
     print('the name inside the function is', my_name)
 

@@ -4,4 +4,4 @@ def greet(name='Laura', time = 'Morning'):
 # name = input('enter your name')
 # time = input('enter the time of the day:')
 
-greet()
+greet('Troy', 'night')

@@ -14,7 +14,7 @@ numbers = ['one', 'two', 'three', 'four', 'five']
 #     else:
 #         print(number)
 
-#WHILE LOOPS:
+#WHILE LOOPS.:
 
 age = 25
 num = 0

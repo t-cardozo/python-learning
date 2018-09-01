@@ -15,3 +15,7 @@ if meaty == 'y':
     print('meat menu')
 else:
     print('veggie menu')
+
+
+#Operators:
+#<,>,==,!=,=>,=<

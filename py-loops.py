@@ -7,7 +7,7 @@ numbers = ['one', 'two', 'three', 'four', 'five']
 #     print(number)
 
 for number in numbers:
-    if number == numbers[3:3]:
+    if number == numbers:
         print(f'{number} - selected')
-        else:
+    else:
         print(number)

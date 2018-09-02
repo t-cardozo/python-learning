@@ -1,3 +1,9 @@
+def ninja_intro(dictionary):
+    for key, val in dictionary.items():
+          print(f'I am {key} and i am a {val} belt')
+
+
+
 ninja_belts = {}
 
 while True:
@@ -10,3 +16,6 @@ while True:
         continue
     else:
         break
+    
+ninja_intro(ninja_belts)
+    

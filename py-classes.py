@@ -1,5 +1,6 @@
 class Planet:
 
+    shape = 'round'
     def __init__(self, name = 'Juan', radius = 30000, gravity = 5.5, system = 'Juan System'):
         self.name = name
         self.radius = radius
@@ -13,5 +14,6 @@ juan_planet = Planet(name = 'Troy')
 
 print(f'Name is {juan_planet.name}')
 print(juan_planet.orbit())
+print(juan_planet.shape)
 
 plantX = Planet()

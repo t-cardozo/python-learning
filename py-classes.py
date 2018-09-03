@@ -10,6 +10,12 @@ class Planet:
     def orbit(self):
         return f'{self.name} is orbiting in the {self.system}'
 
+    @classmethod
+    def commons(cls):
+        return f'All planets are {cls.shape} because of gravity'
+
+#-----------------------------------------
+       
 juan_planet = Planet(name = 'Troy')
 
 print(f'Name is {juan_planet.name}')
@@ -17,3 +23,4 @@ print(juan_planet.orbit())
 print(juan_planet.shape)
 
 plantX = Planet()
+print(plantX.commons())

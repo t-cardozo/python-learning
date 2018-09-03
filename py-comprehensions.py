@@ -23,3 +23,7 @@ for num in nums:
         squared_even_nums.append(num ** 2)
 
 print(squared_even_nums)  
+
+#Comprehensions method
+squared_even_nums = [ num ** 2 for num in nums if(num ** 2) % 2 == 0]
+print(squared_even_nums)

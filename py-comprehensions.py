@@ -10,6 +10,16 @@ for prize in prizes:
 print(dbl_prizes)
 
 #Comprehensions method
-dbl_prizes = [prize*2 for prize in prizes] 
+dbl_prizes = [ prize*2 for prize in prizes ] 
 
 print(dbl_prizes)
+
+nums = [1,2,3,4,5,6,7,8,9,10]
+
+squared_even_nums = []
+
+for num in nums:
+    if (num ** 2) % 2 == 0:
+        squared_even_nums.append(num ** 2)
+
+print(squared_even_nums)  

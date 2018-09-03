@@ -12,7 +12,8 @@ anagrams = []
 for word in words:
     anagrams.append(jumble(word))
 
-print(anagrams)
+#print(anagrams)
 
-print(list(map(jumble, words)))
+#print(list(map(jumble, words)))
 
+print([jumble(word) for word in words])

@@ -7,7 +7,7 @@ x = Planet(name = 'Troy')
 juan_mass = planet_mass(x.gravity, x.radius)
 juan_vol = planet_vol(x.radius)
 
-print(f'Name is {juan_planet.name} has a mass of {juan_mass} and a volume of {juan_vol}')
+print(f'Name is {x.name} has a mass of {juan_mass} and a volume of {juan_vol}')
 # print(juan_planet.orbit())
 # print(juan_planet.shape)
 

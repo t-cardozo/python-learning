@@ -28,4 +28,4 @@ print(juan_planet.shape)
 
 plantX = Planet()
 print(plantX.commons())
-print(plantX.spin())
+print(plantX.spin(5000))

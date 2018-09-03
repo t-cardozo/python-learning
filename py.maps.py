@@ -14,5 +14,5 @@ for word in words:
 
 print(anagrams)
 
-print(list(map(jumble, word)))
+print(list(map(jumble, words)))
 

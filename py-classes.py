@@ -14,6 +14,10 @@ class Planet:
     def commons(cls):
         return f'All planets are {cls.shape} because of gravity'
 
+    @staticmethod
+    def spin(speed = '2000 miles per hour'):
+        return f'The planet spins and spins at {speed}'
+
 #-----------------------------------------
        
 juan_planet = Planet(name = 'Troy')
@@ -24,3 +28,4 @@ print(juan_planet.shape)
 
 plantX = Planet()
 print(plantX.commons())
+print(plantX.spin())

@@ -14,5 +14,5 @@ for word in words:
 
 print(anagrams)
 
-# map(function, data)
+print(list(map(jumble, word)))
 

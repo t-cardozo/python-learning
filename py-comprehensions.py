@@ -8,3 +8,8 @@ for prize in prizes:
     dbl_prizes.append(prize*2)
 
 print(dbl_prizes)
+
+#Comprehensions method
+dbl_prizes = [prize*2 for prize in prizes] 
+
+print(dbl_prizes)

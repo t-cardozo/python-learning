@@ -4,3 +4,10 @@ def removeFails(grade):
     return grade != 'F'
 
 print(list(filter(removeFails, grades)))
+
+new_grades = []
+for grade in grades:
+    if removeFails(grade):
+        new_grades.append(grade)
+
+print(new_grades)

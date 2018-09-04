@@ -11,3 +11,6 @@ for grade in grades:
         new_grades.append(grade)
 
 print(new_grades)
+
+
+print([grade for grade in grades if removeFails(grade)])
